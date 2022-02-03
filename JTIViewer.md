@@ -104,6 +104,15 @@ JmaTsunamiInfoViewerでは表示画面にボタンがありましたが、この
 設定の保存は(棒読みちゃんの設定を除く)値の更新時ほか、アプリケーションの終了時にも実行されます.  
 設定ファイルは``setting.ini``です.
 
+## 「気象庁XMLを参照」ボタン押下時の接続先について
+
+現行(2022/02現在)のPULL型はHTTP(非暗号化)接続でしたが、2021/12/24の気象庁情報基盤部の発表により、2022/03/15を以ってhttpでの接続を終了し、https(常時暗号化)接続に切り替える仕様に変更となりました.  
+
+> 令和 4 年（2022 年）3 月 15 日に気象庁ホームページ（ https://www.jma.go.jp/,
+https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを終了することに伴い、同ホームページ上で運用している「気象庁防災情報 XML フォーマット形式電文の PULL 型提供環境」においても、一部仕様の変更を行います。
+
+これにより、現在オンラインの取得元として利用しているhttpによる接続を先行して終了し、現在既に公開されているhttps接続に変更しました.
+
 ## Q&A
 
 - __Q.__ dmdataへの対応は行われますか.
@@ -127,6 +136,16 @@ JmaTsunamiInfoViewerでは表示画面にボタンがありましたが、この
       <td>alpha0</td>
       <td>前身アプリ<code>JmaTsunamiInfoViewer</code>ソースコードの誤削除による開発終了を受けて後継アプリの開発</td>
       <td align="center">2022-01-28</td>
+    </tr>
+    <tr>
+      <td>alpha1</td>
+      <td>
+        <ul>
+          <li>効果音制作者<code>cube-code99</code>様の名前の誤字を修正、本人からの連絡により、<code>cube90</code>様に変更</li>
+          <li>2022/03/14 14:00JSTに実施される気象庁XMLの取得元の仕様変更(<a href="http://xml.kishou.go.jp/open_trial/pull_https.pdf" target=_blank rel="noreferrer">気象庁ホームページ常時暗号化（http化）</a>)に対応</li>
+        </ul>
+      </td>
+      <td>2022-??-??</td>
     </tr>
   </tbody>
 </table>
@@ -162,7 +181,7 @@ JmaTsunamiInfoViewerでは表示画面にボタンがありましたが、この
 
 ### 効果音作成
 
-> cube-code99様
+> cube90様
 
 ## THANKS
 
@@ -194,13 +213,24 @@ JmaTsunamiInfoViewerでは表示画面にボタンがありましたが、この
       <th>DATE</th>
       <th align="center">概要</th>
       <th>備考</th>
-      <th align="center">対応バージョン</th>
+      <th colspan="2">対応バージョン</th>
     </tr>
     <tr>
       <td>2022-01-28</td>
       <td align="center">作成</td>
       <td></td>
-      <td align="center">0.0.0</td>
+      <td rowspan="10">0.0.0</td>
+      <td>alpha0</td>
+    </tr>
+    <tr>
+      <td>2022-??-??</td>
+      <td rowspan="99">更新</td>
+      <td>
+        <ul>
+          <li><code>cube-code99</code>様の名前を本人からの連絡により<code>cube90</code>に変更</li>
+        </ul>
+      </td>
+      <td align="center">alpha1</td>
     </tr>
   </tbody>
 </table>
