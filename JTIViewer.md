@@ -224,7 +224,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
       <td>alpha0</td>
     </tr>
     <tr>
-      <td>2022-??-??</td>
+      <td>2022-02-03</td>
       <td rowspan="99">更新</td>
       <td>
         <ul>
