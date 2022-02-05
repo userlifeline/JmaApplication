@@ -143,6 +143,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
         <ul>
           <li>効果音制作者<code>cube-code99</code>様の名前の誤字を修正、本人からの連絡により、<code>cube90</code>様に変更</li>
           <li>2022/03/14 14:00JSTに実施される気象庁XMLの取得元の仕様変更(<a href="http://xml.kishou.go.jp/open_trial/pull_https.pdf" target=_blank rel="noreferrer">気象庁ホームページ常時暗号化（http化）</a>)に対応</li>
+          <li>例外発生時にエラーファイルの排出をする機能を追加</li>
         </ul>
       </td>
       <td>2022-??-??</td>
@@ -164,7 +165,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
 - このアプリの各権利はすべて開発者である生命線にあります.
 - 情報は[気象庁](https://www.jma.go.jp)のものを改変利用しています.
 - 情報取得に関しては[気象庁ホームページ利用規約](https://www.jma.go.jp/jma/kishou/info/coment.html)に記載されている「[クリエイティブコモンズ 表示 4.0 国際](https://creativecommons.org/licenses/by/4.0/legalcode.ja)」遵守です。
-- スクリーンショット、クリップボードについては[Lifeline's Appシリーズ 利用規約](https://sites.google.com/view/lifelines-rules/lifelines-app%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84)に則り、``JmaTsunamiInfoViewer <アプリバージョン>``の文字を挿入しています(開発者名は省略).
+- スクリーンショット、クリップボードについては[Lifeline's Appシリーズ 利用規約](https://sites.google.com/view/lifelines-rules/lifelines-app%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84)に則り、``JTIViewer <アプリバージョン>``の文字を挿入しています(開発者名は省略).
 
 ## スクリーンショット、クリップボードに保存した画像について
 
