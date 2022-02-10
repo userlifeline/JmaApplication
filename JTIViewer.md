@@ -148,6 +148,10 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
           <li>2022/03/14 14:00JSTに実施される気象庁XMLの取得元の仕様変更(<a href="http://xml.kishou.go.jp/open_trial/pull_https.pdf" target=_blank rel="noreferrer">気象庁ホームページ常時暗号化（http化）</a>)に対応</li>
           <li>例外発生時にエラーファイルの排出をする機能を追加</li>
           <li>表示画面の大きさが正常でない場合の処理を追加</li>
+          <li>津波情報発表時に文字列のみを表示する機能を追加</li>
+          <li><code>テロップ</code>の名前を<code>警告テロップ</code>に変更</li>
+          <li>地点名・高さ・時刻表示に関する言語パック機能を追加</li>
+          <li>第n(n=整数)波到達のnを全角から半角に変更</li>
           <li>その他細かい修正</li>
         </ul>
       </td>
