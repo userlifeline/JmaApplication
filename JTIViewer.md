@@ -247,6 +247,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
       <td>
         <ul>
           <li><code>cube-code99</code>様の名前を本人からの連絡により<code>cube90</code>に変更</li>
+          <li>言語パックについての説明を追加</li>
         </ul>
       </td>
       <td align="center">alpha1</td>
