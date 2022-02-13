@@ -151,7 +151,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
       <td>
         <ul>
           <li>効果音制作者<code>cube-code99</code>様の名前の誤字を修正、本人からの連絡により、<code>cube90</code>様に変更</li>
-          <li>2022/03/14 14:00JSTに実施される気象庁XMLの取得元の仕様変更(<a href="http://xml.kishou.go.jp/open_trial/pull_https.pdf" target=_blank rel="noreferrer">気象庁ホームページ常時暗号化（http化）</a>)に対応</li>
+          <li>2022/03/14 14:00JSTに実施される気象庁XMLの取得元の仕様変更(<a href="http://xml.kishou.go.jp/open_trial/pull_https.pdf" target=_blank rel="noreferrer">気象庁ホームページ常時暗号化（https化）</a>)に対応</li>
           <li>例外発生時にエラーファイルの排出をする機能を追加</li>
           <li>表示画面の大きさが正常でない場合の処理を追加</li>
           <li><code>テロップ</code>の名前を<code>警告テロップ</code>に変更</li>
