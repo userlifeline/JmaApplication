@@ -139,6 +139,16 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
       <th>DATE</th>
     </tr>
     <tr>
+      <td rowspan="2">β</td>
+      <td>TsunamiInfoViewer</td>
+      <td rowspan="2" colspan="2"></td>
+      <td rowspan="2">前身アプリ</td>
+      <td rowspan="2">~2022-01-28</td>
+    </tr>
+    <tr>
+      <td>JmaTsunamiInfoViewer</td>
+    </tr>
+    <tr>
       <td rowspan="10">β</td>
       <td rowspan="3">JTIViewer</td>
       <td rowspan="10">0.0.0</td>
@@ -161,6 +171,15 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
         </ul>
       </td>
       <td>2022-02-13</td>
+    </tr>
+    <tr>
+      <td>alpha2</td>
+      <td>
+        <ul>
+          <li>棒読みちゃんの読み上げ地点名を辞書機能で代用する機能を追加</li>
+        </ul>
+      </td>
+      <td>2022-??-??</td>
     </tr>
   </tbody>
 </table>
@@ -251,6 +270,15 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
         </ul>
       </td>
       <td align="center">alpha1</td>
+    </tr>
+    <tr>
+      <td>2022-??-??</td>
+      <td>
+        <ul>
+          <li></li>
+        </ul>
+      </td>
+      <td>alpha2</td>
     </tr>
   </tbody>
 </table>
