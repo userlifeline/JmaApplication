@@ -160,7 +160,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
           <li>その他細かい修正</li>
         </ul>
       </td>
-      <td>2022-??-??</td>
+      <td>2022-02-13</td>
     </tr>
   </tbody>
 </table>
