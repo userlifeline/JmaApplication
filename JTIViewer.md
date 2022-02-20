@@ -220,6 +220,7 @@ https://www.data.jma.go.jp/ ）を常時暗号化し、http のサービスを�
 - 情報は[気象庁](https://www.jma.go.jp)のものを改変利用しています.
 - 情報取得に関しては[気象庁ホームページ利用規約](https://www.jma.go.jp/jma/kishou/info/coment.html)に記載されている「[クリエイティブコモンズ 表示 4.0 国際](https://creativecommons.org/licenses/by/4.0/legalcode.ja)」遵守です。
 - スクリーンショット、クリップボードについては[Lifeline's Appシリーズ 利用規約](https://sites.google.com/view/lifelines-rules/lifelines-app%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84)に則り、``JTIViewer <アプリバージョン>``の文字を挿入しています(開発者名は省略).
+- 一部機能の開発については``『気象庁防災情報発表区域データセット』 (NII作成） 気象庁のデータを翻案``して使用しています
 
 ## スクリーンショット、クリップボードに保存した画像について
 
