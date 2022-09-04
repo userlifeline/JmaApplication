@@ -206,6 +206,8 @@ Iniファイルのみが対応していますのでアップデートする際�
           <li>VTSE5Xの地点名の揃えを設定できるように変更</li>
           <li>GIFアニメーションの作成機能を追加</li>
           <li>気象庁からの情報取得に関する不具合を修正</li>
+          <li>ファイル実行に関する機能を追加<li>
+          <li><a href="https://dmdata.jp/" target=_blank rel="noreferrer">DMDATA.JP</a>に対応<li>
         </ul>
       </td>
       <td>2022-03-12</td>
